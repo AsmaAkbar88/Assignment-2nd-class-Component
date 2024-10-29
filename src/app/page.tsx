@@ -3,15 +3,17 @@ import Header from "./Components/Header"
 
 
 function HomePage (){
-  return(
-    <div>
-      <center>
+  return(<center> 
+       <div className=" text-white bg-black font-semibold text-5xl py-60 underline">
+      
       <h1>This is a Home page</h1>
       <About/>
       <Header/>
-      </center>
+      
       
     </div>
+    </center>
+
   )
 }
 export default HomePage 
